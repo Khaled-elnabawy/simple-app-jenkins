@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    DOCKERHUB_REPO = "<DOCKERHUB_USER>/simple-web"   // ← غيّره هنا
+    DOCKERHUB_REPO = "khaledelnabawy1/simple-app-jenkins"   // ← غيّره هنا
     IMAGE_TAG = "${env.BUILD_NUMBER}"
   }
   stages {
